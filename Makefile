@@ -5,7 +5,7 @@
 ## Login   <elbouh_j@epitech.net>
 ## 
 ## Started on  Mon Oct 20 14:13:07 2014 jamal elbouhali
-## Last update Sun Nov 30 13:24:38 2014 jamal elbouhali
+## Last update Sun Nov 30 16:58:06 2014 jamal elbouhali
 ##
 
 CC	= gcc
@@ -24,6 +24,7 @@ SRCS	= my_ls.c \
 	  my_put_nbr.c \
 	  main.c \
 	  my_error.c \
+	  file.c \
 	  no_opt.c
 
 OBJS	= $(SRCS:.c=.o)

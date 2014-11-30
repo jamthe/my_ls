@@ -5,7 +5,7 @@
 ** Login   <elbouh_j@epitech.net>
 ** 
 ** Started on  Sat Nov 29 18:15:13 2014 jamal elbouhali
-** Last update Sun Nov 30 13:22:02 2014 jamal elbouhali
+** Last update Sun Nov 30 17:04:10 2014 jamal elbouhali
 */
 
 #include <dirent.h>
@@ -33,6 +33,10 @@ int		main(int ac, char **av)
           option_l();
           i = i + 1;
         }
+      else if ((av[i][0] == '.' && av[i][1] == '/') ||
+	       (av[i][0] == '.' && av[i][1] == '.' &&
+		av[i][2] == '/'))
+	file(i, av);
       else
 	my_put_error("invalid option\n");
       exit(0);

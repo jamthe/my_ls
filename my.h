@@ -5,7 +5,7 @@
 ** Login   <elbouh_j@epitech.net>
 ** 
 ** Started on  Sat Nov 29 19:18:37 2014 jamal elbouhali
-** Last update Sun Nov 30 13:19:16 2014 jamal elbouhali
+** Last update Sun Nov 30 16:57:46 2014 jamal elbouhali
 */
 
 #ifndef MY_H_
@@ -27,5 +27,6 @@ int	my_put_nbr(int nb);
 void	my_putstr(char *str);
 int	no_option();
 int	main(int ac, char **av);
+int	file(int x, char **av);
 
 #endif /* !MY_H_ */
